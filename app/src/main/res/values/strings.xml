@@ -1,0 +1,36 @@
+<resources>
+    <string name="app_name">Event</string>
+    <string name="title_home">Home</string>
+
+    <string name="upcoming">Upcoming</string>
+    <string name="finished">Finished</string>
+    <string name="active_event">Active Event</string>
+    <string name="finished_event">Finished Event</string>
+    <string name="event_picture">Event Picture</string>
+    <string name="search_events">Search Events..</string>
+    <string name="clear">Clear</string>
+    <string name="event_image_detail">event image detail</string>
+    <string name="event_details">Event Details</string>
+    <string name="begin_time">Begin Time:</string>
+    <string name="end_time">End Time:</string>
+    <string name="location">Location:</string>
+    <string name="quota">Quota:</string>
+    <string name="registrants">Registrants:</string>
+    <string name="event_description">Event Description</string>
+    <string name="register_now">Register Now</string>
+    <string name="sisa_quota">Sisa Quota</string>
+    <string name="penyelenggara">Event Owner</string>
+
+
+    <string name="no_favorite_events">You don\'t have any favorite events yet.</string>
+    <string name="favorite">Favorite</string>
+    <string name="favorite_event">Favorite Event</string>
+    <string name="display_appearance">Display Appearance</string>
+    <string name="dark_mode">Dark Mode</string>
+    <string name="toggle_between_dark_and_light_theme">Enable dark mode</string>
+    <string name="settings">Settings</string>
+    <string name="notification_setting">Notification Setting</string>
+    <string name="receive_daily_reminders_for_upcoming_events">Receive daily reminders for upcoming events.</string>
+    <string name="enable_daily_reminder">Enable Daily Reminder</string>
+    <string name="add_to_favorite_button">Add to favorite button</string>
+</resources>

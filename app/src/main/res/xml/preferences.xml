@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<PreferenceScreen xmlns:android="http://schemas.android.com/apk/res/android">
+    <PreferenceCategory>
+        <SwitchPreferenceCompat
+            android:icon="@drawable/baseline_nightlight_24"
+            android:key="theme_preference"
+            android:summary="@string/toggle_between_dark_and_light_theme"
+            android:title="@string/dark_mode" />
+    </PreferenceCategory>
+<!--    <PreferenceCategory-->
+<!--        android:title="@string/notification_setting">-->
+<!--        <SwitchPreferenceCompat-->
+<!--            android:key="notification_reminder"-->
+<!--            android:summary="@string/receive_daily_reminders_for_upcoming_events"-->
+<!--            android:icon="@drawable/baseline_notifications_active_24"-->
+<!--            android:title="@string/enable_daily_reminder" />-->
+
+<!--    </PreferenceCategory>-->
+</PreferenceScreen>
