@@ -2,7 +2,7 @@
 <navigation xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
-    app:startDestination="@+id/navigation_home">
+    app:startDestination="@+id/navigation_upcoming_event">
 
     <fragment
         android:id="@+id/navigation_home"
@@ -28,28 +28,27 @@
         android:id="@+id/navigation_upcoming_event"
         android:name="com.example.myapplicationevent.ui.upcoming.UpcomingEventFragment"
         android:label="@string/active_event"
-
         tools:layout="@layout/fragment_upcoming_event" >
         <action
             android:id="@+id/action_navigation_upcoming_event_to_detailEventFragment"
             app:destination="@id/navigation_detail_event" />
     </fragment>
+
     <fragment
         android:id="@+id/navigation_detail_event"
         android:name="com.example.myapplicationevent.ui.detailevent.DetailEventFragment"
         android:label="@string/event_details"
-
         tools:layout="@layout/fragment_detail_event" >
         <argument
             android:name="eventId"
             app:argType="string"
             android:defaultValue="0" />
     </fragment>
+
     <fragment
         android:id="@+id/navigation_favorite_event"
         android:name="com.example.myapplicationevent.ui.favorite.FavoriteFragment"
         android:label="@string/favorite_event"
-
         tools:layout="@layout/fragment_favorite" >
         <action
             android:id="@+id/action_favoriteFragment_to_navigation_detail_event"

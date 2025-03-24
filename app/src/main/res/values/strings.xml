@@ -20,6 +20,10 @@
     <string name="register_now">Register Now</string>
     <string name="sisa_quota">Sisa Quota</string>
     <string name="penyelenggara">Event Owner</string>
+    <string name="option_dark_mode">Enable Dark Mode</string>
+    <string name="description_enable_dark_mode">Switch to dark mode for a more comfortable viewing experience in low light.</string>
+    <string name="feature_daily_reminder">Notification Reminder</string>
+    <string name="description_daily_reminder">Stay updated with daily notifications about your upcoming events.</string>
 
 
     <string name="no_favorite_events">You don\'t have any favorite events yet.</string>
